@@ -12,7 +12,7 @@ router.route('/register').post(
 
         },
         {
-            name: "converImage",
+            name: "coverImage",
             maxCount: 1
         }
     ]),
