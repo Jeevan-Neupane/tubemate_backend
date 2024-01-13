@@ -10,6 +10,8 @@ const subscriptionSchema = new Schema({
         type: Schema.Types.ObjectId,
         ref: "User"
     }
+}, {
+    timestamps: true
 })
 
 
